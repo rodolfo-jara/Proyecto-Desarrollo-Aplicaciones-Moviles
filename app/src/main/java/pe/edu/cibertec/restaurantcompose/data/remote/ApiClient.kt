@@ -11,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object ApiClient {
 
-    private const val API_BASE_URL = "https://violet-gigantic-jay.glitch.me/"
+    private const val API_BASE_URL = "https://inquisitive-laced-piccolo.glitch.me/"
 
     private fun getRetrofit() = Retrofit.Builder()
         .baseUrl(API_BASE_URL)
